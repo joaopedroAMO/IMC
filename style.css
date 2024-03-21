@@ -36,6 +36,7 @@ div{
 
 label{
     color: #fff;
+    margin-bottom: 2px;
 }
 
 input{
@@ -49,12 +50,18 @@ input{
 
 button{
     border: 0;
-    background-color: blueviolet;
+    background-color: #e80be8;
     padding: 10px;
     color: #fff;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: bold;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #EE82EE;
 }
 
 #resultado{
