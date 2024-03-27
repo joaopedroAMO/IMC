@@ -36,6 +36,7 @@ function conta(){
         document.querySelector('div#resultado').style.display = "flex"
     }
     else if(imc > 39.9){
+        document.querySelector('span#imc').innerHTML = "seu imc é " + imc.toFixed(2);
         document.querySelector('span#saudavel').innerHTML = "Obesidade grau III"
         document.querySelector('div#resultado').style.display = "flex"
     }

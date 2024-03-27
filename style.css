@@ -60,6 +60,15 @@ input{
     gap: 10px;
 }
 
+.icon{
+    color: #ccc;
+}
+
+.input-container > p{
+    color: #ccc;
+    font-size: smaller;
+}
+
 button{
     border: 0;
     background-color: #DA70D6	;
