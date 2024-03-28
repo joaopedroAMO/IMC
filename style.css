@@ -47,6 +47,7 @@ input{
     background-color: #4F4F4F;
     border-radius: 4px;
     color: #fff;
+    cursor: pointer;
 }
 
 .input-container{
@@ -62,11 +63,13 @@ input{
 
 .icon{
     color: #ccc;
+    cursor: default;
 }
 
 .input-container > p{
     color: #ccc;
     font-size: smaller;
+    cursor: default;
 }
 
 button{
